@@ -14,4 +14,51 @@ body{
     background-image:linear-gradient(rgba(161, 180, 237, 0.48), rgba(133, 155, 239, 0.48)), url('https://scontent-nrt1-1.xx.fbcdn.net/v/t1.6435-9/88169131_2755184177892268_6604154766182318080_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9OA0xbBDhzcAX9vTm71&_nc_ht=scontent-nrt1-1.xx&oh=00_AfC39rHGRva1BtmDS5_OfDiEUkokwWg5S5SvuUzolvWkQw&oe=643289F4');
     background-size: cover;
     background-position: center;
+    padding: 10%;
+    position: relative;
+    padding-top: 3%;
+}
+
+.header-brand{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.header-brand__span{
+    color: aqua;
+}
+
+nav{
+    /* background-color: rgb(106, 204, 237); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 7%;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-text{
+    /* background-color: grey; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header-text h1{
+    font-size: 50px;
+    margin-top: 10px;
 }
