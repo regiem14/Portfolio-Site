@@ -232,3 +232,55 @@ nav ul li a{
 .contact-right form{
     width: 100%;
 }
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: whitesmoke;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+    border: 6px;
+}
+
+.contact__btn.contact__btn--2{
+    display: inline-block;
+    background-color: rgb(169, 215, 122);
+    font-size: 18px;
+}
+
+.contact__btnjj--2:hover{
+    background-color: rgb(133, 243, 166);
+    cursor: pointer;
+}
+
+footer{
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    padding: 3% 0;
+    background-color: #fff;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 600px){
+
+}
+
+/* @media only screen and (max-width: 600px){
+
+} */
+
+/* @media only screen and (max-width: 600px){
+
+} */
+
+/* @media only screen and (max-width: 600px){
+
+} */
+
+@media only screen and (max-width: 600px){
+
+}
