@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+/* html{
+    font-size: 62.5%;
+} */
+
 body{
     font-family: 'Montserrat', sans-serif;
     color: rgb(38, 26, 41);
@@ -61,4 +65,52 @@ nav ul li a{
 .header-text h1{
     font-size: 50px;
     margin-top: 10px;
+}
+
+.about{
+    background-color: #6c757d;
+    height: 80vh;
+}
+
+.about-text{
+    /* background-color: lightblue; */
+    color: rgb(145, 216, 255);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.about-text h2{
+    /* background-color: lightgrey; */
+    font-size: 60px;
+    padding-top: 6rem;
+}
+
+.about-text p{
+    /* background: violet; */
+    padding-top: 2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.about-skills{
+    display: flex;
+    justify-content: center;
+    /* background-color: orange; */
+    width: 50%;
+    color: white;
+    margin: auto;
+    padding-top: 3%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-skills h3{
+    padding-right: 5%;
+}
+
+.about-skills__h3--1{
+    border-bottom: 3px solid green;
+    width: 5%;
+    margin-right: 50px;
 }
