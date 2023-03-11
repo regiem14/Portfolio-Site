@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-/* html{
-    font-size: 62.5%;
-} */
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -35,7 +32,6 @@ body{
 }
 
 nav{
-    /* background-color: rgb(106, 204, 237); */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,12 +64,11 @@ nav ul li a{
 }
 
 .about{
-    background-color: #6c757d;
-    height: 80vh;
+    background-color: #7aa0c2;
+    height: 60vh;
 }
 
 .about-text{
-    /* background-color: lightblue; */
     color: rgb(145, 216, 255);
     text-align: center;
     width: 50%;
@@ -81,7 +76,6 @@ nav ul li a{
 }
 
 .about-text h2{
-    /* background-color: lightgrey; */
     font-size: 60px;
     padding-top: 6rem;
 }
@@ -165,8 +159,76 @@ nav ul li a{
 }
 
 .contact{
-    background-color: lawngreen;
+    background-color: rgb(169, 215, 122);
     height: 100vh;
     margin-top: 300px;
     padding: 5%;
+}
+
+.contact__row{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact h2{
+    font-size: 60px;
+}
+
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    color: aquamarine;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.contact-left__icons{
+    margin-top: 15px;
+}
+
+.contact-left__icons a{
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    display: inline-block;
+    color: #6c757d;
+}
+
+.contact-left__icons a:hover{
+    color: chartreuse;
+    transform: translateY(-5px);
+}
+
+.contact__btn{
+    display: block;
+    margin: 50px auto;
+    border: 1px solid rgb(133, 243, 166);
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+}
+
+.contact__btn:hover{
+    background-color: rgb(133, 243, 166);
+}
+
+.contact__btn.contact__btn--1{
+    display: inline-block;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-right form{
+    width: 100%;
 }
