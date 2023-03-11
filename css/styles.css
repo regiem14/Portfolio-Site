@@ -163,3 +163,10 @@ nav ul li a{
     text-decoration: none;
     padding: .8% 1%;
 }
+
+.contact{
+    background-color: lawngreen;
+    height: 100vh;
+    margin-top: 300px;
+    padding: 5%;
+}
