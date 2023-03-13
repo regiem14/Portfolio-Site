@@ -10,6 +10,7 @@ body{
     color: rgb(38, 26, 41);
 }
 
+
 .header{
     height: 100vh;
     background-image:linear-gradient(rgba(161, 180, 237, 0.48), rgba(133, 155, 239, 0.48)), url('https://scontent-nrt1-1.xx.fbcdn.net/v/t1.6435-9/88169131_2755184177892268_6604154766182318080_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9OA0xbBDhzcAX9vTm71&_nc_ht=scontent-nrt1-1.xx&oh=00_AfC39rHGRva1BtmDS5_OfDiEUkokwWg5S5SvuUzolvWkQw&oe=643289F4');
@@ -62,6 +63,7 @@ nav ul li a{
     font-size: 50px;
     margin-top: 10px;
 }
+
 
 .about{
     background-color: #7aa0c2;
@@ -256,7 +258,7 @@ form input, form textarea{
     cursor: pointer;
 }
 
-footer{
+footer{     
     height: 15vh;
     width: 100%;
     text-align: center;
@@ -265,22 +267,64 @@ footer{
     font-weight: 300;
 }
 
-@media only screen and (max-width: 600px){
+/* html{font-size: 62.5%;} */
 
+.header-image{
+    display: none;
+}
+
+.header-text2{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px){
+    
+    .header{
+        background-image: none;
+        background-color: rgb(239, 65, 242);
+    }
+
+    .header-image{
+        display: block;
+    }
+
+    .header-image img{
+        height: 200px;
+        width: 200px;   
+        object-fit: cover;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .header-text{
+        display: none;
+    }
+
+    .header-text2{
+        display: block;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: aqua;
+        text-align: center;
+    }
+
+    .header-text2 h2{
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 1.8;
+    }
+
+    .header-text2 span{
+        color: goldenrod;
+    }
 }
 
 /* @media only screen and (max-width: 600px){
 
 } */
-
-/* @media only screen and (max-width: 600px){
-
-} */
-
-/* @media only screen and (max-width: 600px){
-
-} */
-
-@media only screen and (max-width: 600px){
-
-}
