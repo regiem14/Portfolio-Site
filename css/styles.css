@@ -373,11 +373,6 @@ footer{
         width: 80%;
     }
 
-    /* .about-text h2{
-        font-size: 50px;
-        padding-top: 0;
-    } */
-
     .about-text p{
         text-align: left;
     }
@@ -395,6 +390,15 @@ footer{
         color: aqua;
     }
 }
-/* @media only screen and (max-width: 600px){
 
-} */
+@media only screen and (max-width: 600px){
+    .portfolio{
+        height: 180vh;
+    }
+
+    .portfolio__img img{
+        width: 70%;
+        height: 260px;
+        margin: 0 auto;
+    }
+}
