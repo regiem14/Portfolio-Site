@@ -332,7 +332,7 @@ footer{
 @media only screen and (max-width: 600px){
     .about{
         background-color: none;
-        padding-top: 10px;
+        padding-top: 20%;
         height: 150vh;
     }
 
@@ -364,6 +364,35 @@ footer{
     .about-text h2{
         font-size: 50px;
         padding-top: 0;
+        font-size: 50px;
+        padding-top: 0;
+
+    }
+
+    .about-text{
+        width: 80%;
+    }
+
+    /* .about-text h2{
+        font-size: 50px;
+        padding-top: 0;
+    } */
+
+    .about-text p{
+        text-align: left;
+    }
+    
+    .about-content{
+        color: #fff;
+    }
+    
+    .about-content p{
+        margin: 5% auto;
+        margin-left: 10%;
+    }
+    
+    .about-para-1{
+        color: aqua;
     }
 }
 /* @media only screen and (max-width: 600px){
