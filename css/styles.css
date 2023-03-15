@@ -297,7 +297,7 @@ footer{
         height: 200px;
         width: 200px;   
         object-fit: cover;
-        top: 50%;
+        top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 50%;
