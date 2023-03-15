@@ -66,7 +66,7 @@ nav ul li a{
 
 
 .about{
-    background-color: #7aa0c2;
+    background-color: rgb(113, 69, 140);
     height: 60vh;
 }
 
@@ -286,7 +286,7 @@ footer{
     
     .header{
         background-image: none;
-        background-color: rgb(239, 65, 242);
+        background-color: rgb(113, 69, 140);
     }
 
     .header-image{
@@ -297,7 +297,7 @@ footer{
         height: 200px;
         width: 200px;   
         object-fit: cover;
-        top: 55%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 50%;
@@ -331,6 +331,7 @@ footer{
 
 @media only screen and (max-width: 600px){
     .about{
+        background-color: none;
         padding-top: 10px;
         height: 150vh;
     }
@@ -339,6 +340,30 @@ footer{
         display: block;
         text-align: center;
         padding: 0 3% 5% 0;
+    }
+
+    .about-img img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        transition-delay: 0.01s;
+    }
+
+    .about-img img:hover{
+        transform: translate(-5px, -10px);
+        cursor: pointer;
+        box-shadow: 10px 10px 5px 0px rgba(216,150,242,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(216,150,242,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(216,150,242,0.75);
+    }
+    
+    .about-text{
+        width: 80%;
+    }
+
+    .about-text h2{
+        font-size: 50px;
+        padding-top: 0;
     }
 }
 /* @media only screen and (max-width: 600px){
