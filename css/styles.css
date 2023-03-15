@@ -281,6 +281,10 @@ footer{
     display: none;
 }
 
+.about-content{
+    display: none;
+}
+
 
 @media only screen and (max-width: 600px){
     
@@ -332,7 +336,7 @@ footer{
 @media only screen and (max-width: 600px){
     .about{
         background-color: none;
-        padding-top: 20%;
+        padding-top: 10%;
         height: 150vh;
     }
 
@@ -364,13 +368,6 @@ footer{
     .about-text h2{
         font-size: 50px;
         padding-top: 0;
-        font-size: 50px;
-        padding-top: 0;
-
-    }
-
-    .about-text{
-        width: 80%;
     }
 
     .about-text p{
@@ -396,9 +393,19 @@ footer{
         height: 180vh;
     }
 
+    .portfolio h2{
+        font-size: 50px;
+        padding-top: 5%;
+    }
+
     .portfolio__img img{
         width: 70%;
         height: 260px;
         margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    
+    .portfolio__btn{
+        font-size: 3rem;
     }
 }
