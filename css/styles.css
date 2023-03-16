@@ -373,7 +373,7 @@ footer {
         height: 200px;
         width: 200px;
         border-radius: 50%;
-        transition-delay: 0.01s;
+        transition: 0.01s;
     }
 
     .about-img img:hover {
@@ -399,7 +399,7 @@ footer {
    }
 
    .about__content{
-  
+    margin: 5% auto;
     color: white; 
     
    }
